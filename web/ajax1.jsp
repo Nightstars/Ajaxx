@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="container">
-        <button onclick="ajax1()" class="btn btn-success">提交</button>
+        <button onclick="ajax1()" class="btn btn-success">提交submint</button>
     </div>
 </body>
 </html>
