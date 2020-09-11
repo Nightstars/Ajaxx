@@ -26,7 +26,7 @@ public class JsonDemoServlet extends HttpServlet {
         //String[] arr={"Json","Jack","Java"};
        // out.println(mapper.writeValueAsString(arr));
         //User user=new User(1,"Tom",20);
-        List<User> users=new ArrayList<>();
+        List<User> users=new ArrayList<User>();
         users.add(new User(1,"Tom",20));
         users.add(new User(2,"Jack",20));
         users.add(new User(3,"John",20));

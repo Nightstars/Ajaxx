@@ -23,7 +23,7 @@ public class JsonDemo {
         str="{ \"id\" :1, \"name\" :\"Alice\", \"age\" :22}";
         User user2=objectMapper.readValue(str,User.class);
         System.out.println(user2.toString());
-        List<User> users=new ArrayList<>();
+        List<User> users=new ArrayList<User>();
         users.add(new User(1,"Tom",20));
         users.add(new User(2,"Jack",20));
         users.add(new User(3,"John",20));
